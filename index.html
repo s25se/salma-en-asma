@@ -4,13 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welkom | Workshop HTML en CSS</title>
+    <title>verloren zussen</title>
+    <style>
+      h1 {
+        color:lightpink;
+        font-size:100px;
+        font-weight:300;
+        font-family: 'Courier New', Courier, monospace;
+      }
+      p {
+        color:lightblue;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      #fotobloemen {
+        width: 200px;
+        height:300px;
+      }
+
+      body{
+        background-color:darksalmon;
+      }
+
+      #bannerfoto {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+
+      }
+
+      #bannertitle {
+        position:absolute;
+        top: 100px;
+        left:50%;
+        transform:translate(-50%, -50%);
+        text-align: center;
+
+      }
+
+
+
+    </style>
   </head>
   <body>
-    <h1>Welkom</h1>
+    <header class="banner">
+      <img id="bannerfoto" src="https://i.pinimg.com/564x/cb/48/a1/cb48a15090cd85c4be58f6b5fc8dad85.jpg">
+      <article id="bannertext">
+        <h1 id="bannertitle">Welkom</h1>
+      </article>
+    </header>
+    
     <p>
-      Hallo en welkom op de workshop: ‘Bouw je eigen website met HTML &amp;
-      CSS’.
+      Hallo wij zijn Asma en Salma van 6HUW2. Wij zijn zussen maar hebben allebei een andere moeder en vader.
     </p>
+    <a href="https://piustien.smartschool.be/login"> Smartschool Piustien </a>
+
+    <img id="fotobloemen" src="https://i.pinimg.com/564x/7b/15/5e/7b155ea753f8931965b9d2fa7d838853.jpg">
   </body>
 </html>
